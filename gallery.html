@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakeside Coffee & Books</title>
+
+    <!-- jQuery  -->
+    <script src="libs/jquery-3.1.1.js"></script>
+
+    <!-- jQuery UI (JS) -->
+    <script src="libs/jquery-ui-1.14.1.custom/jquery-ui.min.js"></script>
+
+    <!-- jQuery UI theme (CSS) -->
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.theme.min.css">
+
+    <!-- Plugin bxSlider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js" integrity="sha512-LaBO0tZh1+6Ebk+EnHt/WsGM0UnmkCXfQ1rfhGmpa5MXUdslNuSSELBRcteHKz4k4ny+Op10Ax2fPoTNq+VcUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS -->
+        <!-- jQuery UI base -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- Custom theme -->
+        <link rel="stylesheet" href="css/jquery-ui.theme.css">
+
+        <!-- Your main styles -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JS  -->
+    <script src="js/script.js" defer></script>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <p class="logo"><a href="index.html">Lakeside Coffee & Books</a></p>
+
+        <!-- Hamburger Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </label>
+
+        <!-- Navigation Menu -->
+        <nav id="main-menu" class="main-nav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+<main>
+  <section class="gallery-section container">
+    <h2 class="section-title">Our Gallery</h2>
+    <p class="section-intro">
+      From the perfect latte art to fresh pastries, explore moments from
+      <em>Lakeside Coffee & Books</em>.
+    </p>
+
+    <!-- bxSlider gallery -->
+    <ul class="bxslider">
+      <li><img src="images/coffee1.jpg" alt="Latte art"></li>
+      <li><img src="images/pastries.jpg" alt="Pastries"></li>
+      <li><img src="images/interior.jpg" alt="Cozy cafe interior"></li>
+      <li><img src="images/books.jpg" alt="Bookshelf in the cafe"></li>
+      <li><img src="images/coffee2.jpg" alt="Pour over coffee"></li>
+      <li><img src="images/community.jpg" alt="Community event at Lakeside"></li>
+    </ul>
+  </section>
+</main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake</p>
+    </footer>
+
+</body>
+</html>

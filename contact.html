@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakeside Coffee & Books</title>
+    
+    <!-- jQuery  -->
+    <script src="libs/jquery-3.1.1.js"></script>
+
+    <!-- jQuery UI (JS) -->
+    <script src="libs/jquery-ui-1.14.1.custom/jquery-ui.min.js"></script>
+
+    <!-- jQuery UI theme (CSS) -->
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.theme.min.css">
+
+    <!-- CSS -->
+        <!-- jQuery UI base -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- Custom theme -->
+        <link rel="stylesheet" href="css/jquery-ui.theme.css">
+
+        <!-- Your main styles -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JS  -->
+    <script src="js/script.js" defer></script>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <p class="logo"><a href="index.html">Lakeside Coffee & Books</a></p>
+
+        <!-- Hamburger Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </label>
+
+        <!-- Navigation Menu -->
+        <nav id="main-menu" class="main-nav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+ <main>
+    <section class="contact-hero container" aria-labelledby="contact-title">
+
+      <!-- Form -->
+      <div class="contact-card" role="region" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact & Inquiries</h2>
+        <p>Have a question about our coffee, books, or events? Leave us a message and we'll get back to you within 48 hours.</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <input type="hidden" name="form-name" value="contact" />
+
+          <div class="form-group">
+            <label for="contact-name">Name *</label>
+            <input id="contact-name" name="name" type="text" required />
+            <div class="field-error" id="err-name"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Email *</label>
+            <input id="contact-email" name="email" type="email" required />
+            <div class="field-error" id="err-email"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-phone">Phone (optional)</label>
+            <input id="contact-phone" name="phone" type="tel" />
+            <div class="field-error" id="err-phone"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-date">Preferred date (optional)</label>
+            <input id="contact-date" name="date" type="text" placeholder="Choose a date" />
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message *</label>
+            <textarea id="contact-message" name="message" required></textarea>
+            <div class="field-error" id="err-message"></div>
+          </div>
+
+          <button class="button-primary" type="submit">Send</button>
+        </form>
+      </div>
+
+      <!-- Info + FAQ -->
+      <aside class="contact-card contact-meta">
+        <h3>Visit Us</h3>
+        <p><strong>Lakeside Coffee & Books</strong></p>
+        <p>123 Lake View</p>
+    
+
+        <h4>Hours</h4>
+        <p class="hours">
+          Mon–Fri: 7:30 — 18:00<br>
+          Sat: 8:00 — 19:00<br>
+          Sun: 8:00 — 15:00
+        </p>
+
+
+        <h4>Quick FAQ</h4>
+        <div id="contact-faq">
+          <h3>Do you take reservations?</h3>
+          <div>We accept small group reservations for up to 6 people.</div>
+          <h3>Can I buy books online?</h3>
+          <div>Not yet — in-store only. Follow us for updates.</div>
+          <h3>Are laptops allowed?</h3>
+          <div>We’re a laptop-free space to encourage reading.</div>
+        </div>
+      </aside>
+    </sectiion>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake</p>
+    </footer>
+
+</body>
+</html>

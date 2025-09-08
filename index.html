@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakeside Coffee & Books</title>
+
+    <!-- jQuery  -->
+    <script src="libs/jquery-3.1.1.js"></script>
+
+    <!-- jQuery UI (JS) -->
+    <script src="libs/jquery-ui-1.14.1.custom/jquery-ui.min.js"></script>
+
+    <!-- jQuery UI theme (CSS) -->
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.theme.min.css">
+
+    <!-- CSS -->
+        <!-- jQuery UI base -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- Custom theme -->
+        <link rel="stylesheet" href="css/jquery-ui.theme.css">
+
+        <!-- Your main styles -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JS  -->
+    <script src="js/script.js" defer></script>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <p class="logo"><a href="index.html">Lakeside Coffee & Books</a></p>
+
+        <!-- Hamburger Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </label>
+
+        <!-- Navigation Menu -->
+        <nav id="main-menu" class="main-nav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+<main>
+  <h2>Welcome to Lakeside Coffee & Books</h2>
+
+  <!-- Slider for featured items -->
+  <div id="featured-slider">
+    <img src="images/coffee1.jpg" alt="Latte art">
+    <img src="images/pastries.jpg" alt="Fresh pastries">
+    <img src="images/reading-corner.jpg" alt="Cozy reading nook">
+  </div>
+
+  <!-- Accordion for story & offerings -->
+  <div id="home-accordion">
+    <h3>Our Story</h3>
+    <div>
+      <p>Founded in 2025, Lakeside Coffee & Books is a cozy community hub where readers and coffee lovers meet.</p>
+    </div>
+    <h3>What We Offer</h3>
+    <div>
+      <ul>
+        <li>Specialty coffee</li>
+        <li>Fresh pastries</li>
+        <li>Curated books</li>
+        <li>Events & gatherings</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Datepicker for reservations -->
+  <label for="reservation">Book a table:</label>
+  <input type="text" id="reservation">
+</main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake</p>
+    </footer>
+
+</body>
+</html>
