@@ -35,7 +35,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
 
@@ -64,36 +64,106 @@
     </header>
 
     <!-- MAIN CONTENT -->
-<div id="menu-tabs">
-  <ul>
-    <li><a href="#drinks" class="menu-tab-title">Drinks</a></li>
-    <li><a href="#food" class="menu-tab-title">Food</a></li>
-    <li><a href="#books" class="menu-tab-title">Books</a></li>
-  </ul>
-  <div id="drinks">
-    <ul>
-      <li>Espresso — €2.20</li>
-      <li>Americano — €2.50</li>
-    </ul>
-  </div>
-  <div id="food">
-    <ul>
-      <li>Croissant — €1.80</li>
-      <li>Avocado Toast — €4.50</li>
-    </ul>
-  </div>
-  <div id="books">
-    <ul>
-      <li>The Alchemist — Paulo Coelho</li>
-      <li>Local Authors & Indie Zines</li>
-    </ul>
-  </div>
-</div>
+    <main>  
+        <h2>Menu</h2>
 
+        <div id="menu-tabs">
+        <ul>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#pastries">Pastries</a></li>
+            <li><a href="#teas">Teas</a></li>
+            <li><a href="#combos">Combos & Specials</a></li>
+        </ul>
+
+        <!-- Drinks -->
+        <div id="drinks" class="menu-grid">
+            <div class="menu-row">
+            <span class="item-name">Espresso</span>
+            <span class="item-price">€2.20</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Americano</span>
+            <span class="item-price">€2.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Pour Over</span>
+            <span class="item-price">€4.00</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Latte</span>
+            <span class="item-price">€3.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Flat White</span>
+            <span class="item-price">€3.80</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Cold Brew</span>
+            <span class="item-price">€3.90</span>
+            </div>
+        </div>
+
+        <!-- Pastries -->
+        <div id="pastries" class="menu-grid">
+            <div class="menu-row">
+            <span class="item-name">Croissant</span>
+            <span class="item-price">€1.80</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Avocado Toast</span>
+            <span class="item-price">€4.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Pain au Chocolat</span>
+            <span class="item-price">€2.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Blueberry Muffin</span>
+            <span class="item-price">€2.20</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Banana Bread</span>
+            <span class="item-price">€2.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Almond tart</span>
+            <span class="item-price">€3.00</span>
+            </div>
+        </div>
+
+        <!-- Teas -->
+        <div id="teas" class="menu-grid">
+            <div class="menu-row">
+            <span class="item-name">Chamomile</span>
+            <span class="item-price">€2.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Earl Grey</span>
+            <span class="item-price">€2.80</span>
+            </div>
+        </div>
+
+        <!-- Combos & Specials -->
+        <div id="combos" class="menu-grid">
+            <div class="menu-row">
+            <span class="item-name">Buy any pastry + latte</span>
+            <span class="item-price">€6.50</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Buy 2 books, get 1 coffee free</span>
+            <span class="item-price">—</span>
+            </div>
+            <div class="menu-row">
+            <span class="item-name">Seasonal Drink of the Month</span>
+            <span class="item-price">€4.50</span>
+            </div>
+        </div>
+        </div>
+    </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake</p>
+        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake | Designed by Lía Nevárez</p>
     </footer>
 
 </body>

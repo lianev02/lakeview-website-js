@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.structure.min.css">
     <link rel="stylesheet" href="libs/jquery-ui-1.14.1.custom/jquery-ui.theme.min.css">
 
+    <!-- Plugin bxSlider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js" integrity="sha512-LaBO0tZh1+6Ebk+EnHt/WsGM0UnmkCXfQ1rfhGmpa5MXUdslNuSSELBRcteHKz4k4ny+Op10Ax2fPoTNq+VcUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- CSS -->
         <!-- jQuery UI base -->
         <link rel="stylesheet" href="css/jquery-ui.css">
@@ -63,41 +66,106 @@
     </header>
 
     <!-- MAIN CONTENT -->
-<main>
-  <h2>Welcome to Lakeside Coffee & Books</h2>
+    <main>
+    
+        <section id="hero">
+        <div class="hero-text">
+            <h1>Welcome to Lakeview Books & Coffee</h1>
+            <p>Where stories meet <em>Specialty Coffee</em>.</p>
+        </div>
+        <img src="images/coffee-9.jpg" alt="Cozy café by the lake" class="hero-img">
+        </section>
 
-  <!-- Slider for featured items -->
-  <div id="featured-slider">
-    <img src="images/coffee1.jpg" alt="Latte art">
-    <img src="images/pastries.jpg" alt="Fresh pastries">
-    <img src="images/reading-corner.jpg" alt="Cozy reading nook">
-  </div>
+        <!-- Slider for featured items -->
+        <section id="featured-books">
+        <h2>Featured Books</h2>
+        <div id="book-slider">
+            <ul class="book-bxslider">
+            <li class="book-card">
+                <img src="images/book-1.jpg" alt="Book 1">
+                <h3>The Great Gatsby</h3>
+                <p>by F. Scott Fitzgerald</p>
+                <p class="price">$12.99</p>
+            </li>
+            <li class="book-card">
+                <img src="images/book-2.jpg" alt="Book 2">
+                <h3>1984</h3>
+                <p>by George Orwell</p>
+                <p class="price">$14.50</p>
+            </li>
+            <li class="book-card">
+                <img src="images/book-3.jpg" alt="Book 3">
+                <h3>To Kill a Mockingbird</h3>
+                <p>by Harper Lee</p>
+                <p class="price">$11.99</p>
+            </li>
+            <li class="book-card">
+                <img src="images/book-4.jpg" alt="Book 4">
+                <h3>The Catcher in the Rye</h3>
+                <p>by J.D. Salinger</p>
+                <p class="price">$13.00</p>
+            </li>
+            <li class="book-card">
+                <img src="images/book-5.jpg" alt="Book 5">
+                <h3>Pride and Prejudice</h3>
+                <p>by Jane Austen</p>
+                <p class="price">$10.99</p>
+            </li>
+            <li class="book-card">
+                <img src="images/book-6.jpg" alt="Book 6">
+                <h3>The Hobbit</h3>
+                <p>by J.R.R. Tolkien</p>
+                <p class="price">$15.99</p>
+            </li>
+            </ul>
+        </div>
+        </section>
 
-  <!-- Accordion for story & offerings -->
-  <div id="home-accordion">
-    <h3>Our Story</h3>
-    <div>
-      <p>Founded in 2025, Lakeside Coffee & Books is a cozy community hub where readers and coffee lovers meet.</p>
-    </div>
-    <h3>What We Offer</h3>
-    <div>
-      <ul>
-        <li>Specialty coffee</li>
-        <li>Fresh pastries</li>
-        <li>Curated books</li>
-        <li>Events & gatherings</li>
-      </ul>
-    </div>
-  </div>
+        <!-- Accordion for story & offerings -->
+        <section>
+            <div id="home-accordion" class="pad">
+                <h3>Our Story</h3>
+                <div>
+                <p>Founded in 2025, Lakeside Coffee & Books is a cozy community hub where readers and coffee lovers meet.</p>
+                </div>
+                <h3>What We Offer</h3>
+                <div>
+                <ul>
+                    <li>Specialty coffee</li>
+                    <li>Fresh pastries</li>
+                    <li>Curated books</li>
+                    <li>Events & gatherings</li>
+                </ul>
+                </div>
+            </div>
+        </section>
 
-  <!-- Datepicker for reservations -->
-  <label for="reservation">Book a table:</label>
-  <input type="text" id="reservation">
-</main>
+        
+
+        <!-- Datepicker for reservations -->
+        <section class="pad">
+            <label for="reservation">Book a table:</label>
+            <input type="text" id="reservation">
+        </section>
+
+
+        <!-- CTA -->
+        <section id="cta-section">
+        <div class="cta-container">
+            <img src="images/coffee-10.jpg" alt="Cozy reading corner" class="cta-image">
+            <div class="cta-content">
+            <h2>Discover Your Next Favorite Book</h2>
+            <p>Buy 2 books, get 1 coffee free! Come enjoy a quiet spot by the lake and your favorite brew.</p>
+            <a href="menu.html" class="cta-button">Browse Our Menu</a>
+            </div>
+        </div>
+        </section>
+        
+    </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake</p>
+        <p>&copy; 2025 Lakeside Coffee & Books | Small town by the lake | Designed by Lía Nevárez</p>
     </footer>
 
 </body>
